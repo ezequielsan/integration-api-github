@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integração GitHub</title>
+
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+
+        }
+
+        form {
+            background: #c1e4ec;
+            width: 25%;
+            height: 20vh;
+            margin: 0 auto;
+            margin-top: 50px;
+            border: 1px solid #000;
+
+        }
+
+        #title {
+            margin-top: 50px;
+            font-size: 1.25rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 10px;
+
+        }
+
+        #nome {
+            margin-left: 10px;
+            font-size: 1.1rem;
+            text-align: left;
+
+        }
+
+        #userName {
+            margin: 15px 0 0 10px;
+            padding: 5px 10px;
+            width: 200px;
+        }
+
+        #enviar {
+            padding: 5px 20px;
+            margin-left: 130px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="form">
+            <label id="title">Insira o nome de login de seu GitHub</label><br>
+            <label id="nome">Nome :</label>
+            <input type="text" id="userName"><br><br>
+            <input type="submit" id="enviar">
+        </form>
+
+        <h2></h2>
+        <img src="" alt="">
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
